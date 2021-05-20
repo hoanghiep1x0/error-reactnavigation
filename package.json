@@ -1,16 +1,17 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start -c",
     "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
+    "ios": "expo start --ios -c",
+    "web": "expo start --web -c",
     "eject": "expo eject"
   },
   "dependencies": {
     "@expo-google-fonts/inter": "^0.1.0",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/native": "^6.0.0-next.8",
+    "@react-navigation/stack": "^6.0.0-next.17",
     "expo": "~41.0.1",
     "expo-app-loading": "^1.0.3",
     "expo-font": "~9.1.0",
